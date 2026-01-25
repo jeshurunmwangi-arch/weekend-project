@@ -23,3 +23,9 @@ h1{
     font-style: oblique;
     margin-bottom:10px;
 }
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 50px;
+}
