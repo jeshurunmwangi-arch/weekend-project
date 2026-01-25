@@ -1,132 +1,140 @@
-.biography{
-    padding:2px;
-    background-color: beige;
+.biography {
+  padding: 2px;
+  background-color: beige;
 }
 
+.about-photographer {
+  background-color: beige;
+}
 
-h1{
-    text-align: center;
+.about-photographer h2{
     color: blue;
+    text-align: center;
 }
 
-.pics{
-    padding:50px;
-    text-align: center;
+h1 { 
+  color: blue;
+  text-align: center;
+}
+
+.pics {
+  padding: 50px;
+  text-align: center;
 }
 
 .pics h2 {
-    font-size:30px;
-    color: blue;
-    margin-bottom:10px;
+  font-size: 30px;
+  color: blue;
+  margin-bottom: 10px;
 }
 
 .pics p {
-    font-style: oblique;
-    margin-bottom:10px;
+  font-style: oblique;
+  margin-bottom: 10px;
 }
 
-.gallery{
-    display: grid;
-    gap:100px ;
-    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+.gallery {
+  display: grid;
+  gap: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .gallery-item {
-    background:#f9f9f9;
-    border-radius:20px;
-    box-shadow:0 2px 3px rgba(0,0,0,0.1);
+  background: #f9f9f9;
+  border-radius: 20px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
 
 .gallery-item img {
-    width:100%;
-    height:200px;
-    object-fit: cover;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .gallery-item:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 #footer {
-    background-color:beige;
-    color:black;
-    text-align: center;
-    margin-top:70px;
-    padding:20px 30px ;
+  background-color: beige;
+  color: black;
+  text-align: center;
+  margin-top: 70px;
+  padding: 20px 30px;
 }
 
 #footer p {
-    font-weight:100px;
-    font-size:20px; 
+  font-weight: 100px;
+  font-size: 20px;
 }
 
 .socials {
-    margin-top:20px;
+  margin-top: 20px;
 }
 
 .socials a {
-    color:burlywood;
-    margin:0 5px;
-    text-decoration:none;
-    font-size: medium;
+  color: burlywood;
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: medium;
 }
 
-.socials  a:hover {
-    color: black;
-    text-decoration: underline;
+.socials a:hover {
+  color: black;
+  text-decoration: underline;
 }
 
 #contact {
-    padding:50px;
-    background-color:beige;
-    text-align: center;
+  padding: 50px;
+  background-color: beige;
+  text-align: center;
 }
 
-#contact h2{
-    margin-bottom:15px;
-    color: blue;
+#contact h2 {
+  margin-bottom: 15px;
+  color: blue;
 }
 
 #contact p {
-    margin-bottom: 25px;
-    color:black ;
+  margin-bottom: 25px;
+  color: black;
 }
 
 .contact-form {
-    max-width: 500px;
-    margin: auto;
-    text-align: left;
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
 }
 
-.contact-form label{
-    display: block;
-    margin-bottom:5px;
-    font-weight: 50px;
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 50px;
 }
 
 .contact-form input,
 .contact-form textarea {
-    width:100%;
-    padding:10px;
-    margin-bottom:25px;
-    border-radius:6px;
-    border:1px solid black;
-    font-size:14px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-radius: 6px;
+  border: 1px solid black;
+  font-size: 14px;
 }
 
 .contact-form textarea {
-    height:100px;
-    resize: vertical;
+  height: 100px;
+  resize: vertical;
 }
 
 .contact-form button {
-    width:100%;
-    padding:15px;
-    background-color: antiquewhite;
-    color:black;
-    border:none;
+  width: 100%;
+  padding: 15px;
+  background-color: antiquewhite;
+  color: black;
+  border: none;
 }
 
 .contact-form button:hover {
-    background-color: bisque;
-} 
+  background-color: bisque;
+}
