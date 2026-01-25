@@ -120,8 +120,13 @@ h1{
 }
 
 .contact-form button {
-    width:100px;
+    width:100%;
     padding:15px;
     background-color: antiquewhite;
-    
+    color:black;
+    border:none;
 }
+
+.contact-form button:hover {
+    background-color: bisque;
+} 
