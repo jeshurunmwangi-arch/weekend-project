@@ -7,3 +7,15 @@
 h1{
     color: blue;
 }
+
+.pics{
+    padding:50px;
+    text-align: center;
+}
+
+.pics h2 {
+    font-size:30px;
+    color: blue;
+    margin-bottom:10px;
+}
+
