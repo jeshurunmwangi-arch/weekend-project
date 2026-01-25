@@ -75,3 +75,53 @@ h1{
     color: black;
     text-decoration: underline;
 }
+
+#contact {
+    padding:50px;
+    background-color:beige;
+    text-align: center;
+}
+
+#contact h2{
+    margin-bottom:15px;
+    color: blue;
+}
+
+#contact p {
+    margin-bottom: 25px;
+    color:black ;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+.contact-form label{
+    display: block;
+    margin-bottom:5px;
+    font-weight: 50px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width:100%;
+    padding:10px;
+    margin-bottom:25px;
+    border-radius:6px;
+    border:1px solid black;
+    font-size:14px;
+}
+
+.contact-form textarea {
+    height:100px;
+    resize: vertical;
+}
+
+.contact-form button {
+    width:100px;
+    padding:15px;
+    background-color: antiquewhite;
+    
+}
